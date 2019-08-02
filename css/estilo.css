@@ -85,6 +85,12 @@ body.fotos #navegacao a#fotos
 	margin-top: 60px;
 }
 
+#lateral {
+	width: 180px;
+	float: left;
+	margin: 0 0 20px -750px;
+	background: yellow;
+}
 
 #primario {
 	width: 270px;
@@ -93,20 +99,29 @@ body.fotos #navegacao a#fotos
 	background: blue;
 }
 
+#tres-colunas #primario {
+	width: 270px;
+	float: left;
+	margin: 0 0 20px 195px;
+	background: blue;
+}
+
+#duas-colunas #primario {
+	width: 555px;	
+}
+
+#uma-coluna #primario {
+	width: 750px;
+	margin: 0 0 20px 0;
+
+}
+
 #secundario {
 	width: 270px;
 	float: left;
 	margin: 0 0 20px 15px;
 	background: green;
 }
-
-#lateral {
-	width: 180px;
-	float: left;
-	margin: 0 0 20px -750px;
-	background: yellow;
-}
-
 
 /*Rodape*/
 #container-rodape {
